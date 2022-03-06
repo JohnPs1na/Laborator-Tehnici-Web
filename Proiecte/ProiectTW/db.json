@@ -1,0 +1,50 @@
+{
+   "apps": [
+      {
+         "name": "Virtual kek",
+         "img": "https://wallpapershome.ru/images/wallpapers/luchshie-igri-3840x2160-luchshie-igri-17847.jpg",
+         "id": "1"
+      },
+      {
+         "id": "2",
+         "name": "Vr-chat",
+         "img": "https://i.ytimg.com/vi/r_oGr7qJqi4/hqdefault.jpg"
+      },
+      {
+         "name": "Beat Saber",
+         "img": "https://en.free-wallpapers.su/data/media/7846/big/gm8572.jpg",
+         "id": "3"
+      },
+      {
+         "name": "mini-bobot",
+         "img": "https://www.roadtovr.com/wp-content/uploads/2018/10/Astro-Bot-Rescue-Mission-7.jpg",
+         "id": "a2acf772-3177-4aeb-a684-782e83ec9c21"
+      }
+   ],
+   "users": [
+      {
+         "username": "JohnPsina",
+         "password": "123456",
+         "email": "Johnpsina@gmail.com",
+         "id": "1"
+      },
+      {
+         "username": "RussianHacker",
+         "password": "123",
+         "email": "RussianHack@mail.ru",
+         "id": "2"
+      },
+      {
+         "username": "palindrom",
+         "password": "aibohphobia",
+         "email": "lolkek@gmail.com",
+         "id": "3"
+      },
+      {
+         "username": "LupulAuf",
+         "password": "volkBonk",
+         "email": "loveVodafone@s.unibuc.ro",
+         "id": "4"
+      }
+   ]
+}

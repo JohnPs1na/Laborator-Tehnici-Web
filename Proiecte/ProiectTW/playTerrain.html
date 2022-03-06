@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" href="header_style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="section.css">
+    <link rel="stylesheet" href="mainStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="play-terrain.css">
+    <link rel="stylesheet" href="play-terrain2.css">
+    <title>Play Terrain</title>
+    
+    <style>
+    .Play-terrain{
+        box-shadow: 0px 0px 5px #ffba08 inset
+    }
+    </style>
+</head>
+<body class = "Play-terrains">
+    <header id = "header_main">
+        <div id = "header_title">
+            <h1 id = "block-nume">
+                <span><img id = "logo" src="logo.png" alt=""></span>
+                <span id = "nume_site" style="color:#4bdff3">V-Reality</span>
+            </h1>
+        </div>
+
+        <div id = "left_side" style="display: inline;">
+            <a id = "alink" >
+                <button id = "sign-up" class="btn">
+                    Sign up
+                </button>
+            </a>
+            <a id = "alink">
+                <button id = "log-in" class="btn">
+                    Log In
+                </button>
+            </a>
+            <a id = "quit-thing">
+                <button id = "quit" class="btn">
+                    Quit
+                </button>
+            </a>
+        </div>
+
+    </header>
+
+    <nav class = "navbar">
+        <a href="home.html" class="btn acasa" >Acasa</a>
+        <a href="despre.html" class="btn despre" >Despre</a>
+        <a href="apps.html" class="btn apps" >Apps</a>
+        <a href="playTerrain.html" class="btn Play-terrain" >Play Terrain</a>
+    </nav>
+
+    <div id = "play-terrain-section">
+        <div class="favApps">
+          <h1>Favourite apps:</h1>
+        </div>
+        <div id="login-box" style="display: none;">
+            <h2>Login</h2>
+            <form>
+              <div class="user-box">
+                <input id = "username-log" type="text" name="" required="">
+                <label>Username</label>
+              </div>
+              <div class="user-box">
+                <input id = "password-log" type="password" name="" required="">
+                <label>Password</label>
+              </div>
+              <a id = submit href="#">
+                Submit
+              </a>
+            </form>
+          </div>
+
+          <div id="signup-box" style="display: none;">
+            <h2>Sign up</h2>
+            <form>
+              <div class="user-box">
+                <input id = "username" type="text" name="" required="">
+                <label>Username</label>
+              </div>
+              <div class="user-box">
+                <input id = "email" type="text" name="" required="">
+                <label>Email-address</label>
+              </div>
+              <div class="user-box">
+                <input id = "password" type="password" name="" required="">
+                <label>Password</label>
+              </div>
+              <div class="user-box">
+                <input id = "confirm" type="password" name="" required="">
+                <label>Confirm Password</label>
+              </div>
+              <a id = "sign-up-submit" href="#">
+                Submit
+              </a>
+            </form>
+          </div>
+
+          <div id="edit" style="display: none;">
+            <h2>Edit</h2>
+            <form>
+              <div class="user-box">
+                <input id = "appName" type="text" name="" required="">
+                <label>name</label>
+              </div>
+              <div class="user-box">
+                <input id = "appImg" type="text" name="" required="">
+                <label>img</label>
+              </div>
+              <a id = "edit-submit" href="#">
+                  Submit
+              </a>
+            </form>
+          </div>
+
+          <div id="add" style="display: none;">
+            <h2>Add</h2>
+            <form>
+              <div class="user-box">
+                <input id = "app-name" type="text" name="" required="">
+                <label>name</label>
+              </div>
+              <div class="user-box">
+                <input id = "app-img" type="text" name="" required="">
+                <label>img</label>
+              </div>
+              <a id = "add-submit" href="#">
+                  <button id = "addsbm">submit</button>
+              </a>
+            </form>
+          </div>
+
+          <div id = "applications">
+
+          </div>
+          <!-- <div class="jocuri">
+            <div class="flex1">
+                <div class="joc gta">
+                    <div class = "i3">
+
+                    </div>
+                    <h1 id="gt" style="color: white;">GTA 5</h1>
+                    <p class="description">
+                      <div class = "lis">
+                        <li><button class="inbtn">delete me pls</button></li>
+                        <li><button class="inbtn">buy me pls</button></li>
+                        <li><button class="inbtn">add to favourites</button></li>
+                      </div>
+                    </p>
+                </div>
+                <div class = "joc cyber">
+                    <div class = "i1">
+
+                    </div>
+                    <h1 id="gt" style="color: white;">CyberPunk 2077</h1>
+                    <p class="description">
+                      <div class = "lis">
+                        <li><button class="inbtn">delete me pls</button></li>
+                        <li><button class="inbtn">buy me pls</button></li>
+                        <li><button class="inbtn">add to favourites</button></li>
+                      </div>
+                    </p>
+                </div>
+                <div class = "joc minec">
+                    <div class = "i2">
+
+                    </div>
+                    <h1 id="gt" style="color: white;">Minecraft</h1>
+                    <p class="description">
+                      <div class = "lis">
+                        <li><button class="inbtn">delete me pls</button></li>
+                        <li><button class="inbtn">buy me pls</button></li>
+                        <li><button class="inbtn">add to favourites</button></li>
+                      </div>
+                    </p>  
+                </div>
+                <div class="joc ceva">
+                  <div class = "i4">
+
+                  </div>
+                  <h1 id="gt" style="color: white;">Angry cowboy</h1>
+                  <p class="description">
+                    <div class = "lis">
+                      <li><button class="inbtn">delete me pls</button></li>
+                      <li><button class="inbtn">buy me pls</button></li>
+                      <li><button class="inbtn">add to favourites</button></li>
+                    </div>
+                  </p>
+              </div>
+            </div>
+        </div> -->
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
